@@ -2,13 +2,13 @@ import Navbar from "@/component/navbar";
 import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
 
-const about = () => {
+const DsaPractice = () => {
   return (
     <Box>
       <Navbar />
-      <Heading>about</Heading>
+      <Heading>DsaPractice</Heading>
     </Box>
   );
 };
 
-export default about;
+export default DsaPractice;
