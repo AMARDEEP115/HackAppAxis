@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import navBarStyle from "../AllCss/Navbar.module.css";
 import { useRouter } from 'next/navigation';
+import Router from 'next/router';
 import {
   Box,
   Button,
@@ -22,6 +23,7 @@ let user = {
   email: "",
   password: "",
 };
+
 
 const Login = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -56,7 +58,7 @@ const Login = () => {
       localStorage.setItem("token", JSON.stringify(data.token));
       localStorage.setItem("ipName", JSON.stringify(data.messg));
       alert("Login succesfull");
-      return router.push('/');
+      return Router.reload();
     } else {
       return alert("User not found");
     }
