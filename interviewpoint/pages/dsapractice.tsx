@@ -24,8 +24,18 @@ type Item = {
   messg: [];
 };
 
-const DsaPractice = ({ datas }: Item) => {
-  const data: [] = datas.messg || [];
+const DsaPractice = () => {
+  // const data: [] = datas.messg || [];
+  const [data,setData]=React.useState([]);
+  const getData=async()=>{
+    let dat = await fetch("http://localhost:3000/api");
+    let dataa = await dat.json();
+    // setData(data.messg);
+    setData(dataa.messg);
+  }
+  React.useEffect(()=>{
+    getData();
+  },[])
   // console.log(datas);
   return (
     <Box>
@@ -56,13 +66,13 @@ const DsaPractice = ({ datas }: Item) => {
   );
 };
 
-export async function getStaticProps() {
-  let data = await fetch("http://localhost:3000/api");
+// export async function getStaticProps() {
+//   let data = await fetch("http://localhost:3000/api");
 
-  data = await data.json();
-  return {
-    props: { datas: data },
-  };
-}
+//   data = await data.json();
+//   return {
+//     props: { datas: data },
+//   };
+// }
 
 export default DsaPractice;
