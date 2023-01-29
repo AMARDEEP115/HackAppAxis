@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import navBarStyle from "../AllCss/Navbar.module.css";
+import { useRouter } from 'next/navigation';
 import {
   Box,
   Button,
@@ -26,8 +27,9 @@ const Login = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef<HTMLButtonElement>(null);
   const [userDetails, setUserDetails] = useState(user);
+  const router = useRouter();
 
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     setUserDetails({ ...userDetails, [e.target.name]: e.target.value });
   };
   const hanldeSubmit = async () => {
@@ -51,11 +53,12 @@ const Login = () => {
     console.log(data);
 
     if (data.OK === "OK") {
-      localStorage.setItem("token", data.token);
-      localStorage.setItem("ipName", data.messg);
-      return alert("user registered");
+      localStorage.setItem("token", JSON.stringify(data.token));
+      localStorage.setItem("ipName", JSON.stringify(data.messg));
+      alert("Login succesfull");
+      return router.push('/');
     } else {
-      return alert("something went wrong");
+      return alert("User not found");
     }
   };
   return (

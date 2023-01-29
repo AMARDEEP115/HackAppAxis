@@ -39,7 +39,7 @@ const Register = () => {
   const btnRef = React.useRef<HTMLButtonElement>(null);
   const [userDetails, setUserDetails] = useState(user);
 
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     setUserDetails({ ...userDetails, [e.target.name]: e.target.value });
   };
   const hanldeSubmit = async () => {

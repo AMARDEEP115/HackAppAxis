@@ -36,6 +36,15 @@ import Register from "./Register";
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef<HTMLButtonElement>(null);
+  let [cn,setCn]=React.useState(0);
+  let [token,setToken]=React.useState("false");
+  let [name,setName]=React.useState("false");
+  React.useEffect(()=>{
+    let tok:string | false=localStorage.getItem("token") || "false";
+    let nam:string | false=localStorage.getItem("ipName") || "false";
+    setToken(tok);
+    setName(nam);
+  },[cn]);
   return (
     <Flex justifyContent={"space-between"} p="20px" h="70px" bgColor="blue.600" flexWrap={"wrap"} mb="70px">
       <Box fontSize="20px" w="200px" h="120px" border="5px solid" borderColor="blue.600" mt="-20px">
@@ -43,13 +52,33 @@ const Navbar = () => {
       </Box>
       <Box display={"flex"} gap="25px" justifyContent={"center"} fontSize="18px" fontWeight="bold" color="white">
         <Link href={"/"} className={navBarStyle.headIng}> Home </Link>
-        <Link href={"/dsapractice"} className={navBarStyle.headIng}> DSA Practice </Link>
-        <Link href={"/tutorial"} className={navBarStyle.headIng}> Tutorial </Link>
+        <Link href={token!=="false"?"/dsapractice":"/"} className={navBarStyle.headIng}> DSA Practice </Link>
+        <Link href={token!=="false"?"/tutorial":"/"} className={navBarStyle.headIng}> Tutorial </Link>
         <Link href={"/about"} className={navBarStyle.headIng}> About </Link>
-        <Login/>
+        {token=="false" && <Login/>}
+        {token!=="false" && <Link href={"/"}><Button
+        mt="-7px"
+        colorScheme="teal"
+        className={navBarStyle.headIngChak}
+        onClick={()=>{
+          localStorage.removeItem("token");
+          localStorage.removeItem("ipName");
+          setCn(prev=>prev+1);
+          
+        }}
+      >
+        Logout
+      </Button></Link>}
         {/* {localStorage.getItem("token")==null && <Login/>}
         {localStorage.getItem("token")!==null && <Button>Logout</Button>} */}
-        <Register/>
+        {name=="false" && <Register/>}
+        {name!=="false" && <Button
+        mt="-7px"
+        colorScheme="teal"
+        className={navBarStyle.headIngChak}
+      >
+        {name}
+      </Button>}
       </Box>
     </Flex>
   );
