@@ -46,10 +46,10 @@ const Register = () => {
     console.log(userDetails);
 
     if (userDetails.password !== userDetails.confirmPassword) {
-      return alert("plc check your password");
+      return alert("please check your password");
     }
 
-    let res = await fetch("http://localhost:3000/api/auth/register", {
+    let res = await fetch("/api/auth/register", {
       method: "POST",
       body: JSON.stringify({
         ...userDetails,
