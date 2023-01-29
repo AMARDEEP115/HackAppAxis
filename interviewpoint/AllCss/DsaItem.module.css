@@ -1,0 +1,39 @@
+.main{
+    border: 2px solid rgb(29, 78, 168);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    margin: auto;
+}
+.HeadingDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeadingsTopic{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.HeadingsName{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.HeadingsDiff{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-right: 30px;
+}
+.HeadingsPrac{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(29, 78, 168);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 57px;
+    padding-right: 57px;
+    border-radius: 10px;
+    display: block;
+}

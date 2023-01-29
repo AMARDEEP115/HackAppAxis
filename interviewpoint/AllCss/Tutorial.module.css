@@ -1,0 +1,45 @@
+.backBtn{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(29, 78, 168);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 47px;
+    padding-right: 47px;
+    border-radius: 10px;
+    margin-left: 80%;
+    margin-bottom: 30px;
+}
+.dash{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+    padding-left: 130px;
+}
+.dashDiv{
+    border: 3px solid black;
+    width: 45%;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dashDiv:hover{
+    border: 6px solid rgb(255, 132, 0);
+}
+.dashDiv>img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.dashDivIn>h1{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.dashDivIn>h2{
+    font-weight: 700;
+    color: darkorchid;
+}

@@ -1,0 +1,35 @@
+.Main{
+    display: flex;
+    align-items: center;
+}
+.Main>img{
+    width: 50%;
+    margin-right: 30px;
+}
+.qT{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(3, 104, 104);
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    margin-top: 100px;
+}
+.qTB{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(29, 78, 168);
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.qEs{
+    display: block;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 800;
+    width: 200px;
+    margin-top: 50px;
+    color: rgb(29, 78, 168);
+}
