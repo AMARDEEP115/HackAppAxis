@@ -56,6 +56,8 @@ const DsaPractice = ({ datas }: Item) => {
   );
 };
 
+export default DsaPractice;
+
 export async function getStaticProps() {
   let data = await fetch("http://localhost:3000/api");
 
@@ -65,4 +67,3 @@ export async function getStaticProps() {
   };
 }
 
-export default DsaPractice;

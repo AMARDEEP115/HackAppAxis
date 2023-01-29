@@ -5,3 +5,11 @@
     color: rgb(219, 173, 34);
     font-size: 1.3rem;
 }
+.headIngBtn{
+    margin-top: -75px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.headIngBtn:hover{
+    color: tomato;
+}
