@@ -38,10 +38,10 @@ const Login = () => {
     console.log(userDetails);
 
     if (!userDetails.password || !userDetails.email) {
-      return alert("plc fill correctly");
+      return alert("please fill correctly");
     }
     // retrun;
-    let res = await fetch("http://localhost:3000/api/auth/login", {
+    let res = await fetch("/api/auth/login", {
       method: "POST",
       body: JSON.stringify({
         ...userDetails,

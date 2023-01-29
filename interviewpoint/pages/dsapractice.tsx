@@ -28,7 +28,7 @@ const DsaPractice = () => {
   // const data: [] = datas.messg || [];
   const [data,setData]=React.useState([]);
   const getData=async()=>{
-    let dat = await fetch("http://localhost:3000/api");
+    let dat = await fetch("/api");
     let dataa = await dat.json();
     // setData(data.messg);
     setData(dataa.messg);
