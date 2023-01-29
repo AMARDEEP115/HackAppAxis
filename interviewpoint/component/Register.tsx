@@ -49,7 +49,7 @@ const Register = () => {
       return alert("please check your password");
     }
 
-    let res = await fetch("http://localhost:8080/user/signup", {
+    let res = await fetch("https://interview-h0qi.onrender.com/user/signup", {
       method: "POST",
       body: JSON.stringify({
         ...userDetails,

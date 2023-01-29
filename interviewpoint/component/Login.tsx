@@ -40,7 +40,7 @@ const Login = () => {
       return alert("please fill correctly");
     }
     // retrun;
-    let res = await fetch("http://localhost:8080/user/login", {
+    let res = await fetch("https://interview-h0qi.onrender.com/user/login", {
       method: "POST",
       body: JSON.stringify({
         ...userDetails,

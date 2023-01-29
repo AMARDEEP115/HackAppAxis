@@ -26,16 +26,16 @@ type Item = {
 
 const DsaPractice = () => {
   // const data: [] = datas.messg || [];
-  const [data,setData]=React.useState([]);
-  const getData=async()=>{
-    let dat = await fetch("http://localhost:8080/");
+  const [data, setData] = React.useState([]);
+  const getData = async () => {
+    let dat = await fetch("https://interview-h0qi.onrender.com");
     let dataa = await dat.json();
     // setData(data.messg);
     setData(dataa.messg);
-  }
-  React.useEffect(()=>{
+  };
+  React.useEffect(() => {
     getData();
-  },[])
+  }, []);
   // console.log(datas);
   return (
     <Box>
