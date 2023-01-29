@@ -39,7 +39,7 @@ const Register = () => {
   const btnRef = React.useRef<HTMLButtonElement>(null);
   const [userDetails, setUserDetails] = useState(user);
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: any; value: any } }) => {
     setUserDetails({ ...userDetails, [e.target.name]: e.target.value });
   };
   const hanldeSubmit = async () => {
@@ -49,7 +49,7 @@ const Register = () => {
       return alert("please check your password");
     }
 
-    let res = await fetch("/api/auth/register", {
+    let res = await fetch("http://localhost:8080/user/signup", {
       method: "POST",
       body: JSON.stringify({
         ...userDetails,
