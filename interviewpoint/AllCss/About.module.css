@@ -1,87 +1,87 @@
-.Body{
-    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: -70px;
-    padding-top: 70px;
+.Body {
+  background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -70px;
+  padding-top: 70px;
 }
-.aboutDiv{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 127px;
-    padding-right: 127px;
+.aboutDiv {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 127px;
+  padding-right: 127px;
 }
-.aboutDiv>h1{
-    font-size: 1.5rem;
-    font-weight: 700;
-    width: 40%;
-    text-align: center;
-    text-shadow: 1px 0px 5px #FF0000;
+.aboutDiv > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 40%;
+  text-align: justify;
+  text-shadow: 1px 0px 5px #ff0000;
 }
-.aboutImg{
-    width: 40%;
+.aboutImg {
+  width: 40%;
 }
-.Found{
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    text-shadow: 1px 0px 5px yellowgreen;
+.Found {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-shadow: 1px 0px 5px yellowgreen;
 }
-.FoundMain{
-    display: flex;
-    width: 1000px;
-    margin: auto;
-    gap: 40px;
+.FoundMain {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  gap: 40px;
 }
-.FoundSingle{
-    border: 5px solid rgb(29, 78, 168);
-    border-radius: 33px 0px 30px 0px;
-    width: 300px;
-    height: 450px;
-    background: whitesmoke;
+.FoundSingle {
+  border: 5px solid rgb(29, 78, 168);
+  border-radius: 33px 0px 30px 0px;
+  width: 300px;
+  height: 450px;
+  background: whitesmoke;
 }
-.FoundImage{
-    /* border-radius: 30px 0px 0px 0px; */
-    border-radius: 50%;
-    width: 80%;
-    margin: auto;
-    /* margin-top: 20px; */
+.FoundImage {
+  /* border-radius: 30px 0px 0px 0px; */
+  border-radius: 50%;
+  width: 80%;
+  margin: auto;
+  /* margin-top: 20px; */
 }
-.FoundFDiv{
-    background-color: rgb(29, 78, 168);
-    height: 50%;
-    border-radius: 25px 0px 0px 0px;
-    padding-top: 30px;
-    margin-bottom: 60px;
+.FoundFDiv {
+  background-color: rgb(29, 78, 168);
+  height: 50%;
+  border-radius: 25px 0px 0px 0px;
+  padding-top: 30px;
+  margin-bottom: 60px;
 }
-.FoundName{
-    font-size: 1.3rem;
-    font-weight: bold;
-    width: 50%;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: rgb(29, 78, 168);
+.FoundName {
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(29, 78, 168);
 }
-.FoundName:hover{
-    color: #FF0000;
+.FoundName:hover {
+  color: #ff0000;
 }
-.FoundLinked>img{
-    width: 40px;
+.FoundLinked > img {
+  width: 40px;
 }
-.FoundLinked{
-    font-size: 1.3rem;
-    font-weight: bold;
-    display: flex;
-    gap: 10px;
-    margin-left: 30px;
-    width: 60%;
-    align-items: center;
-    color: rgb(29, 78, 168);
+.FoundLinked {
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+  width: 60%;
+  align-items: center;
+  color: rgb(29, 78, 168);
 }
-.FoundLinked:hover{
-    color: #FF0000;
+.FoundLinked:hover {
+  color: #ff0000;
 }
