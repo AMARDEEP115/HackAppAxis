@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import navBarStyle from "../AllCss/Navbar.module.css";
-import { useRouter } from 'next/navigation';
-import Router from 'next/router';
+import { useRouter } from "next/navigation";
+import Router from "next/router";
 import {
   Box,
   Button,
@@ -24,14 +24,13 @@ let user = {
   password: "",
 };
 
-
 const Login = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef<HTMLButtonElement>(null);
   const [userDetails, setUserDetails] = useState(user);
   const router = useRouter();
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: any; value: any } }) => {
     setUserDetails({ ...userDetails, [e.target.name]: e.target.value });
   };
   const hanldeSubmit = async () => {
@@ -41,7 +40,7 @@ const Login = () => {
       return alert("please fill correctly");
     }
     // retrun;
-    let res = await fetch("/api/auth/login", {
+    let res = await fetch("http://localhost:8080/user/login", {
       method: "POST",
       body: JSON.stringify({
         ...userDetails,

@@ -1,0 +1,447 @@
+[
+  {
+    "Link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Remove Duplicates from Sorted Array"
+  },
+  {
+    "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Best Time to Buy and Sell Stock II"
+  },
+  {
+    "Link": "https://leetcode.com/problems/rotate-array/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Rotate Array"
+  },
+  {
+    "Link": "https://leetcode.com/problems/contains-duplicate/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Contains Duplicate"
+  },
+  {
+    "Link": "https://leetcode.com/problems/single-number/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Single Number"
+  },
+  {
+    "Link": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": " Intersection of Two Arrays II"
+  },
+  {
+    "Link": "https://leetcode.com/problems/plus-one/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Plus One"
+  },
+  {
+    "Link": "https://leetcode.com/problems/move-zeroes/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Move Zeroes"
+  },
+  {
+    "Link": "https://leetcode.com/problems/two-sum/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Two Sum"
+  },
+  {
+    "Link": "https://leetcode.com/problems/valid-sudoku/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Valid Sudoku"
+  },
+  {
+    "Link": "https://leetcode.com/problems/rotate-image/",
+    "difficuly": "Easy",
+    "Topic": "Array",
+    "Name": "Rotate Image"
+  },
+  {
+    "Link": "https://leetcode.com/problems/reverse-string/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "Reverse String"
+  },
+  {
+    "Link": "https://leetcode.com/problems/reverse-integer/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "Reverse Integer"
+  },
+  {
+    "Link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "First Unique Character in a String"
+  },
+  {
+    "Link": "https://leetcode.com/problems/valid-anagram/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "Valid Anagram"
+  },
+  {
+    "Link": "https://leetcode.com/problems/valid-palindrome/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "Valid Palindrome"
+  },
+  {
+    "Link": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "String to Integer (atoi)"
+  },
+  {
+    "Link": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "Implement strStr()"
+  },
+  {
+    "Link": "https://leetcode.com/problems/longest-common-prefix/",
+    "difficuly": "Easy",
+    "Topic": "String",
+    "Name": "Longest Common Prefix"
+  },
+  {
+    "Link": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficuly": "Easy",
+    "Topic": "Sort & Search",
+    "Name": " Merge Sorted Array"
+  },
+  {
+    "Link": "https://leetcode.com/problems/first-bad-version/",
+    "difficuly": "Easy",
+    "Topic": "Sort & Search",
+    "Name": "First Bad Version"
+  },
+  {
+    "Link": "https://leetcode.com/problems/fizz-buzz/",
+    "difficuly": "Easy",
+    "Topic": "Math",
+    "Name": "Fizz Buzz"
+  },
+  {
+    "Link": "https://leetcode.com/problems/count-primes/",
+    "difficuly": "Easy",
+    "Topic": "Math",
+    "Name": "Count Primes"
+  },
+  {
+    "Link": "https://leetcode.com/problems/power-of-three/",
+    "difficuly": "Easy",
+    "Topic": "Math",
+    "Name": "Power of Three"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/roman-to-integer/",
+    "difficuly": "Easy",
+    "Topic": "Math",
+    "Name": "Roman to Integer"
+  },
+
+  {
+    "Link": "Number of 1 Bits",
+    "difficuly": "Easy",
+    "Topic": "Others",
+    "Name": "Number of 1 Bits"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/hamming-distance/",
+    "difficuly": "Easy",
+    "Topic": "Others",
+    "Name": "Hamming Distance"
+  },
+
+  {
+    "Link": "Reverse Bits",
+    "difficuly": "Easy",
+    "Topic": "Others",
+    "Name": "Reverse Bits"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/pascals-triangle/",
+    "difficuly": "Easy",
+    "Topic": "Others",
+    "Name": "Pascal's Triangle"
+  },
+
+  {
+    "Link": "Valid Parentheses",
+    "difficuly": "Easy",
+    "Topic": "Others",
+    "Name": "Valid Parentheses"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/missing-number/",
+    "difficuly": "Easy",
+    "Topic": "Others",
+    "Name": "Missing Number"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+    "difficuly": "Easy",
+    "Topic": "LL",
+    "Name": "Delete Node in a Linked List"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "difficuly": "Easy",
+    "Topic": "LL",
+    "Name": "Remove Nth Node From End of List"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficuly": "Easy",
+    "Topic": "LL",
+    "Name": "Reverse Linked List"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "difficuly": "Easy",
+    "Topic": "LL",
+    "Name": "Merge Two Sorted Lists"
+  },
+
+  {
+    "Link": "https://leetcode.com/problems/palindrome-linked-list/",
+    "difficuly": "Easy",
+    "Topic": "LL",
+    "Name": "Palindrome Linked List"
+  },
+  {
+    "Link": "https://leetcode.com/problems/linked-list-cycle/",
+    "difficuly": "Easy",
+    "Topic": "LL",
+    "Name": "Linked List Cycle"
+  },
+  {
+    "Link": "https://leetcode.com/problems/climbing-stairs/",
+    "difficuly": "Easy",
+    "Topic": "DP",
+    "Name": "Climbing Stairs"
+  },
+  {
+    "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficuly": "Easy",
+    "Topic": "DP",
+    "Name": "Best Time to Buy and Sell Stock"
+  },
+  {
+    "Link": "https://leetcode.com/problems/maximum-subarray/",
+    "difficuly": "Easy",
+    "Topic": "DP",
+    "Name": "Maximum Subarray"
+  },
+  {
+    "Link": "https://leetcode.com/problems/house-robber/",
+    "difficuly": "Easy",
+    "Topic": "DP",
+    "Name": "House Robber"
+  },
+  {
+    "Link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "difficuly": "Easy",
+    "Topic": "Trees",
+    "Name": "Maximum Depth of Binary Tree"
+  },
+  {
+    "Link": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "difficuly": "Easy",
+    "Topic": "Trees",
+    "Name": "Validate Binary Search Tree"
+  },
+  {
+    "Link": "https://leetcode.com/problems/symmetric-tree/",
+    "difficuly": "Easy",
+    "Topic": "Trees",
+    "Name": "Symmetric Tree"
+  },
+  {
+    "Link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficuly": "Easy",
+    "Topic": "Trees",
+    "Name": "Binary Tree Level Order Traversal"
+  },
+  {
+    "Link": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+    "difficuly": "Easy",
+    "Topic": "Trees",
+    "Name": "Convert Sorted Array to Binary Search Tree"
+  },
+  {
+    "Link": "https://leetcode.com/problems/3sum/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "3 Sum"
+  },
+  {
+    "Link": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Set Matrix Zeroes"
+  },
+  {
+    "Link": "https://leetcode.com/problems/group-anagrams/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Group Anagrams"
+  },
+  {
+    "Link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Longest Substring Without Repeating Characters"
+  },
+  {
+    "Link": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Longest Palindromic Substring"
+  },
+  {
+    "Link": "https://leetcode.com/problems/increasing-triplet-subsequence/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Increasing Triplet Subsequence"
+  },
+  {
+    "Link": "https://leetcode.com/problems/count-and-say/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Count and Say"
+  },
+  {
+    "Link": "https://leetcode.com/problems/happy-number/",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": "Happy Number"
+  },
+  {
+    "Link": "",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": ""
+  },
+  {
+    "Link": "https://leetcode.com/problems/factorial-trailing-zeroes/",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": "Factorial Trailing Zeroes"
+  },
+  {
+    "Link": "https://leetcode.com/problems/excel-sheet-column-number/",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": "Excel Sheet Column Number"
+  },
+  {
+    "Link": "https://leetcode.com/problems/powx-n/",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": " Pow(x, n)"
+  },
+  {
+    "Link": "https://leetcode.com/problems/sqrtx/",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": "Sqrt(x)"
+  },
+  {
+    "Link": "https://leetcode.com/problems/divide-two-integers/",
+    "difficuly": "Medium",
+    "Topic": "Maths",
+    "Name": "Divide Two Integers"
+  },
+  {
+    "Link": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "difficuly": "Medium",
+    "Topic": "Sort & Search",
+    "Name": "Top K Frequent Elements"
+  },
+  {
+    "Link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficuly": "Medium",
+    "Topic": "Sort & Search",
+    "Name": " Kth Largest Element in an Array"
+  },
+  {
+    "Link": "https://leetcode.com/problems/find-peak-element/",
+    "difficuly": "Medium",
+    "Topic": "Sort & Search",
+    "Name": "Find Peak Element"
+  },
+
+  {
+    "Link": "",
+    "difficuly": "Medium",
+    "Topic": "BackTracking",
+    "Name": "Letter Combinations of a Phone Number"
+  },
+  {
+    "Link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "difficuly": "Medium",
+    "Topic": "BackTracking",
+    "Name": ""
+  },
+  {
+    "Link": "https://leetcode.com/problems/permutation-sequence/",
+    "difficuly": "Medium",
+    "Topic": "BackTracking",
+    "Name": "Permutations"
+  },
+  {
+    "Link": "https://leetcode.com/problems/subsets/",
+    "difficuly": "Medium",
+    "Topic": "BackTracking",
+    "Name": "Subsets"
+  },
+  {
+    "Link": "https://leetcode.com/problems/odd-even-linked-list/",
+    "difficuly": "Medium",
+    "Topic": "LL",
+    "Name": "Odd Even Linked List"
+  },
+  {
+    "Link": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "difficuly": "Medium",
+    "Topic": "LL",
+    "Name": " Intersection of Two Linked Lists"
+  },
+  {
+    "Link": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Product of Array Except Self"
+  },
+  {
+    "Link": "https://leetcode.com/problems/container-with-most-water/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": "Container With Most Water"
+  },
+  {
+    "Link": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "difficuly": "Medium",
+    "Topic": "Array & String",
+    "Name": " Longest Consecutive Sequence"
+  }
+]
