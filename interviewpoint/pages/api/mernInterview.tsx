@@ -1,5 +1,4 @@
 import { type } from "os";
-import dbData from "../../../db.json";
 
 type data = {
   method: String;
