@@ -1,0 +1,64 @@
+.fBody{
+    /* background-image: url("https://media0.giphy.com/media/FyoaJE2iah7WYeyxWr/giphy.gif"); */
+    background-color: rgb(29, 78, 168);
+    background-size: cover;
+    margin-top: 170px;
+    padding-top: 100px;
+}
+.main{
+    display: flex;
+    gap: 13%;
+    width: 60%;
+    margin: auto;
+}
+.hH{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+.hHH{
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 800;
+    color: white;
+}
+.hHH:hover{
+    color: tomato;
+}
+.fLast{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.DwnApTxt{
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 70%;
+    margin-top: 30px;
+}
+.DwnAp{
+    display: flex;
+    gap: 30px;
+    width: 380px;
+    margin-left: 70%;
+    margin-top: 20px;
+}
+.DwnAp>img{
+    width: 170px;
+}
+.loGo{
+    margin-top: 10px;
+    height: 150px;
+    width: 300px;
+    margin-left: 20px;
+}
+.yEAR{
+    font-weight: bold;
+    /* color: rgb(54, 54, 54); */
+    color: white;
+    margin-top: 150px;
+    margin-right: 20px;
+}

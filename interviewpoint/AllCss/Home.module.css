@@ -1,0 +1,71 @@
+.homeBody{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQqD6Hz1oimAv4JonTbO_j9zVA6e9p7HmfQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote{
+    font-size: 30px;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.qtWiter{
+    margin-left: 350px;
+    color: brown;
+    font-size: large;
+}
+.qtAimg{
+    display: flex;
+    margin-bottom: 70px;
+}
+.homeImage{
+    width: 50%;
+    margin-left: 130px;
+}
+.sLbtn{
+    border: 10px solid rgb(34, 99, 219);
+    display: block;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(34, 99, 219);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.sLbtn:hover{
+    width: 300px;
+    height: 70px;
+    font-size: x-large;
+}
+.DsaCod{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.DsaCod>a{
+    width: 45%;
+}
+.DsaCodIA{
+    width: 100%;
+    border-radius: 20px;
+}
+.DsaCodIB{
+    width: 100%;
+    height: 360px;
+    border-radius: 20px;
+}
+.lineS{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.pageExtender{
+    margin-top: 10px;
+    border: 10px solid white;
+}
