@@ -4,6 +4,7 @@ import React from "react";
 import aboutStyle from "../AllCss/About.module.css";
 import Footer from "../component/Footer";
 import Image from "next/image";
+//fgfd
 
 const about = () => {
   return (

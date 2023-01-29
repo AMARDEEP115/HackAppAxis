@@ -28,7 +28,7 @@ const DsaPractice = () => {
   // const data: [] = datas.messg || [];
   const [data, setData] = React.useState([]);
   const getData = async () => {
-    let dat = await fetch("https://interview-h0qi.onrender.com");
+    let dat = await fetch("https://interview-h0qi.onrender.com/");
     let dataa = await dat.json();
     // setData(data.messg);
     setData(dataa.messg);
